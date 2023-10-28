@@ -1,0 +1,16 @@
+{
+  "name": "03_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "01_vars": "node 01_vars.js",
+    "02_objects": "node 02_objects.js",
+    "03_functions": "node 03_functions.js",
+    "04_common": "node 04_common.js",
+    "05_promises": "node 05_promises.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
