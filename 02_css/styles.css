@@ -1,24 +1,15 @@
 * {
-    --pallete-500: #007FFF;
-    --palette-600: #0072E5;
-
-    font-family: Helvetica, Sans-Serif;
-
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     border: none;
-}
+    text-decoration: none;
+    color: black;
 
-.layout {
-    width: 100vw;
-    height: 100vh;
+    font-family: Helvetica, Sans-Serif;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    flex-direction: column;
+    --pallete-500: #007FFF;
+    --palette-600: #0072E5;
 }
 
 main {
@@ -31,34 +22,15 @@ main {
     gap: 30px;
 }
 
-.card > h3 {
-    font-weight: normal;
-    font-size: 24px;
-}
-
-.card {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    padding: 20px 40px;
-    border-radius: 10px;
-    width: 400px;
-    height: 200px;
+.layout {
+    width: 100vw;
+    height: 100vh;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-}
 
-footer {
-    position: absolute;
-    left: 20px;
-    right: 20px;
-    top: 10px;
-    height: 40px;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
 }
 
 #get-prediction {
@@ -74,8 +46,39 @@ footer {
     background: var(--palette-600);
 }
 
+
+.card > h3 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+footer {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 10px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 a {
-    text-decoration: none;
     color: var(--pallete-500);
     font-size: 18px;
 }

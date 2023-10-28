@@ -4,6 +4,10 @@ const promise = new Promise((resolve) => {
     }, 2000)
 });
 
+// some code
+
+console.log('Before promise');
+
 promise.then((data) => {
     console.log(data);
     return 'some data';
@@ -16,3 +20,5 @@ promise.then((data) => {
 }).then(() => {
     console.log('after catch')
 })
+
+console.log('After promise');
